@@ -393,7 +393,7 @@ picture {
 }
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
-  color: var(--accent-cl);
+  fill: var(--accent-cl);
 }
 
 /*=============== Footer ===============*/
