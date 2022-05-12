@@ -114,7 +114,7 @@ picture {
 .nav .nav-link:hover,
 .nav .nav-link:active,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:active {
   color: var(--accent-cl);
 }
 
