@@ -113,8 +113,10 @@ picture {
 
 .nav .nav-link:hover,
 .nav .nav-link:active,
+.nav .nav-link:focus,
 .contact-link:hover,
-.contact-link:active {
+.contact-link:active,
+.contact-link:focus {
   color: var(--accent-cl);
 }
 
@@ -152,6 +154,7 @@ picture {
   fill: currentColor;
 }
 .contact-link:hover .contact-icon,
+.contact-link:active .contact-icon,
 .contact-link:focus .contact-icon {
   color: var(--accent-cl);
 }
@@ -235,11 +238,10 @@ picture {
 
 .specifics-box {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   width: 100%;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -378,8 +380,7 @@ picture {
   justify-content: center;
   align-items: center;
   width: 170px;
-  padding-bottom: 16px;
-  padding-top: 16px;
+  height: 92px;
   outline: 1px solid #afb1b8;
   border-radius: 4px;
 }
